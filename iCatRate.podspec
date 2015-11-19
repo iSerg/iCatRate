@@ -7,7 +7,6 @@ Pod::Spec.new do |s|
   s.author          = { "Username" => "madrudenko@gmail.com" }
   s.platform        = :ios, 7.0
   s.source          = { :git => "https://github.com/iSerg/iCatRate.git", :tag => s.version.to_s }
-  s.source_files          = 'Classes/*.{h,m}'
   s.framework       = 'Foundation'
   s.requires_arc    = true
 
