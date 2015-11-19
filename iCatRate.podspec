@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name            = "iCatRate"
-  s.version         = "0.0.1"
+  s.version         = "0.0.2"
   s.summary         = "summary."
   s.homepage        = "https://github.com/iSerg/iCatRate.git"
   s.license         = { :type => 'MIT', :file => 'LICENSE' }
@@ -10,7 +10,6 @@ Pod::Spec.new do |s|
   s.source_files          = 'Classes/*.{h,m}'
   s.framework       = 'Foundation'
   s.requires_arc    = true
-  s.resources = ["Resources/*.png", "Resources/*.plist","Resources/*.bundle"]
 
 s.subspec 'iRateManager' do |ir|
     ir.source_files = 'Classes/iRateManager.{h,m}'
