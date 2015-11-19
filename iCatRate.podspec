@@ -10,4 +10,10 @@ Pod::Spec.new do |s|
   s.framework       = 'Foundation'
   s.requires_arc    = true
 
+s.subspec 'iRateManager' do |ir|
+    ir.source_files = 'Classes/iRateManager.{h,m}'
+    ir.frameworks   = 'MapKit', 'CoreData' # Добавлены зависимости от фрэймворков
+    ir.platform     = :ios, 7.0 # Этот модуль может запускаться и на iOS 5.0
+  end
+
 end
